@@ -1,5 +1,5 @@
 :root {
-    --fs: 15px;
+    --fs: 14px;
 
     --ff-inter: "Inter";
     --ff-lexend-deca: "Lexend Deca";
@@ -98,6 +98,7 @@ h2 {
 .descr {
     color: var(--slightly-transparent-white-stat);
     font-family: var(--ff-lexend-deca);
+    font-size: 12px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -174,6 +175,7 @@ h2 {
     }
 
     h1 {
+        font-size: 28px;
         width: 290px;
     }
 
@@ -191,5 +193,3 @@ h2 {
         max-width: 450px;
     }
 }
-
-/* fix font sizes */
